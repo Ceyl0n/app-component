@@ -4,5 +4,7 @@
     "paths": {
       "@/*": [""]
     }
-  }
+  },
+  "include": ["**/*.js", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
